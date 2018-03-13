@@ -1,0 +1,23 @@
+<div class="panel panel-default" ng-init="showstudent()">
+	<div class="panel-heading">
+	  <p class="panel-title"> Title..</p>
+	</div>
+	<div class="panel-body">
+		<form ng-submit="updatestudent()">
+    <div class="form-group">
+      <label >firstname:</label>
+      <input type="text" class="form-control" id="firstna" ng-model="student.firstname" value="student.firstname">
+    </div>
+    <div class="form-group">
+      <label >lastname:</label>
+      <input type="text" class="form-control" id="name" ng-model="student.lastname" value="student.lastname">
+    </div>
+    <div class="form-group">
+      <label >email:</label>
+      <input type="text" class="form-control" id="name" ng-model="student.email" value="student.email">
+    </div>
+    <button type="submit" class="btn btn-default">Save</button>
+    <a href="#/" class="btn btn-default"> Cancel</a>
+</form>		
+    <div>
+<div>
